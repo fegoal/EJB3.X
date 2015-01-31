@@ -37,7 +37,7 @@ public class ArticulosMgrBean implements ArticulosMgr {
     	//getByRef.setParameter("ref", "1");
     	//List<Articulo> lstArticulos  = getByRef.getResultList();
     	System.out.println("Año del articulo=" + art.getAnio());
-    	System.out.println("Write hola desde la rama AddTrans");
+    	System.out.println("Write hola desde la rama MASTER");
     	//return lstArticulos;
     	return "hola";
     }
